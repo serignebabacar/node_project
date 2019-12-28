@@ -1,0 +1,9 @@
+package.log specifie toutes les versions installes 
+version a.b.c
+a changement majeur
+b changement mineur
+c bugs 
+
+npm install vs npm ci
+tild ~que le patch 
+chapeau ^les mineur
