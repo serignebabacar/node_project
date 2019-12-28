@@ -1,0 +1,61 @@
+package.log specifie toutes les versions installes 
+version a.b.c
+a changement majeur
+b changement mineur
+c bugs 
+
+npm install vs npm ci
+tild ~que le patch 
+chapeau ^les mineur
+
+
+
+
+
+
+evaluation qcm amc 
+question piege possible 
+
+
+organisme qui standardise javascrip ecma
+questions sur les promesses  : permet de faire la programmation asynchrone ,
+                                reduit le code
+                                eviter les callback hell
+npm install tuto -g install tuto de facon global pas utile dans le cas ou on fait express
+correct npm start
+        npm run clean a chercher 
+        npm run test
+        npm run test a tester 
+        npm test  a tester 
+incorrect npm clean
+
+transpilage ou  transpiling prendre du code dans une certaine version pour le transformer dans une autre version ou langage :babel
+
+mettre plusieurs ressources ensemble dans un meme seul paquet  bundle : webpack (outil de bundling le plus utlise )
+                                                                        browserify(ne fait pas de transpilation)
+
+problemes de securite nodejs risque avec les paquets
+                             
+
+callback normalise nodejs error et data 
+                            on regarde si ya une erreur
+
+manipulation tp 
+
+demarrage app node js deja demarre erreur de port deja utilise -regarder le type d'erreur commencant par E
+
+paquage.json devDepencies et depe    mise en prod et developpement exemple a chercher estlint on  en a pas besoin en production mais oui en devDepencies
+                main dans le package.json si main le fichier qui est dans main sinn index.js
+                
+
+dans node js ona des modules deja installer  fs process donc pas de npm install fs car ils font parti des paquets de base 
+
+question culture generale facteur qui impacte le plus les sites web le bundling avec les requetes http 
+                                                                    : le nombre de requetes qui est fait
+
+tansformer callback en promesses et mettre image 
+npm ci integrtion conntinue supprime tous et reinstalle node_modules a partir du package-lock npm installe installe tous
+
+nom de domaine abordable gandi.net
+heroku pour deployer des projets node js 
+protonMail

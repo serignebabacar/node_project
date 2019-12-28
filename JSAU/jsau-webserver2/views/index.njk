@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nunjucks example</title>
+    <script src="nunjucks.js"></script>
+    <style> 
+    table
+  {
+      border-collapse : collapse; /* Les bordures du tableau seront collées (plus joli) */
+  }
+  td
+  {
+      border: 1px solid black;
+  }
+  th
+  {
+      border: 1px solid black;
+  }
+</style>
+</head>
+<body>
+<h1>Nouvelles</h1>
+<h1>Ajouter Noouvelle </h1>
+<form action="" method="post">
+  <label name="nom" >Nom nouvel </label>
+  <input type="text" name="nomNouvel" id="nom">
+  <br>
+  <label name="contenu" > Contenu de la Nouvelle</label>
+  <input type="text" name="contenu" id="contenu">
+  <button>Ajouter</button>
+  <br>
+  <br>
+  <br>
+
+  <table>
+    <tr>
+        <th>ID</th>
+        <th>nom de la Nouvelle ?</th>
+        <th>Contenu de la nouvelle  ?</th>
+        <th>Action  ?</th>
+        
+    </tr>
+    
+    <tr>
+        {% for item in items %}
+        <td>{{ item.id}}</td>
+        <td >{{ item.nomNouvel}}</td>
+        <td>{{ item.contenu}}</td>
+        <td>
+            <input type="button" id="modifie-site" onclick= "" style="color: green;" value="Modifier">
+            <a href="/{{item.id}}"  class="button">supprimer</a>
+        </td>
+       
+    </tr>
+    {% endfor %}
+ </table>
+</form>
+
+</body>
+</html>
+
